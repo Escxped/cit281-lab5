@@ -1,0 +1,93 @@
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Lab 5 – Express Server Routes</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 2rem;
+      background: linear-gradient(90deg, rgba(42,155,132,1) 0%, rgba(87,108,199,1) 51%, rgba(83,237,206,1) 100%);
+      color: #fff;
+      margin: 0;
+    }
+
+    h1 { color: #ffe066; }
+    ul, p { line-height: 1.6; }
+    img {
+      max-width: 100%;
+      border: 2px solid #fff;
+      border-radius: 8px;
+      margin: 1rem 0;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+    }
+
+    .button-container {
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+      margin-top: 1.5rem;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 0.6rem 1.2rem;
+      background-color: #007acc;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 6px;
+    }
+
+    .button:hover {
+      background-color: #005f99;
+    }
+
+    section {
+      margin-bottom: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>🧪 Lab 5 – Express Server Routes</h1>
+
+  <p>This lab expanded on Express fundamentals, with routes for GET and POST requests. It included building a server that could return all students, a single student, and handle unmatched routes. We also added POST functionality to add a new student via JSON.</p>
+
+  <h2>🔍 Topics Covered</h2>
+  <ul>
+    <li>Route handling with Express</li>
+    <li>Route parameters and dynamic IDs</li>
+    <li>Parsing JSON with <code>express.json()</code></li>
+    <li>Handling unmatched routes</li>
+    <li>POSTing JSON data to the server</li>
+  </ul>
+
+  <h2>📸 Screenshots</h2>
+
+  <section>
+    <h3>✅ All Students</h3>
+    <img src="AllStudents.png" alt="All Students Screenshot">
+  </section>
+
+  <section>
+    <h3>✅ Single Student</h3>
+    <img src="SingleStudent.png" alt="Single Student Screenshot">
+  </section>
+
+  <section>
+    <h3>✅ POST New Student</h3>
+    <img src="StudentPost.png" alt="Student POST Screenshot">
+  </section>
+
+  <section>
+    <h3>❌ Unmatched Route</h3>
+    <img src="Unmatched.png" alt="Unmatched Route Screenshot">
+  </section>
+
+  <div class="button-container">
+    <a href="https://github.com/Escxped/cit281-lab5" class="button" target="_blank">📂 View Lab on GitHub</a>
+    <a href="https://escxped.github.io/" class="button">⬅ Back to Main Portfolio</a>
+  </div>
+
+</body>
+</html>
